@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Catalogue</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="image/BMW.png" alt="BMW Logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="donnees.html" class="active">Données</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="partenaires.html">Partenaires</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="banner">
+                <h1>Données BMW</h1>
+                <p>Découvrez tous nos modèles</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Liste des modèles BMW</h2>
+
+                <table id="tableBMW" class="display">
+                    <thead>
+                        <tr>
+                            <th>Modèle</th>
+                            <th>Année</th>
+                            <th>Catégorie</th>
+                            <th>Moteur</th>
+                            <th>Puissance (ch)</th>
+                            <th>Prix (€)</th>
+                            <th>Carburant</th>
+                            <th>Pays</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+
+                <p id="compteur" style="margin-top: 2rem; color: #0066b1;"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© MMI Troyes</p>
+            <p>Un site créé par Meriç KÖKEN</p>
+            <p><a href="credits.html" class="footer-link">Crédits</a></p>
+            <h5>BMW</h5>
+            <p>Performance. Passion. Perfection.</p>
+        </div>
+    </footer>
+
+    <script>
+        fetch('datas/bmw.json')
+            .then(function(response) { return response.json(); })
+            .then(function(data) {
+                var tbody = document.getElementById('tableBody');
+                var html = '';
+                data.forEach(function(bmw) {
+                    var prix = bmw.prix.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+                    html += '<tr>';
+                    html += '<td>' + bmw.modele + '</td>';
+                    html += '<td>' + bmw.annee + '</td>';
+                    html += '<td>' + bmw.categorie + '</td>';
+                    html += '<td>' + bmw.moteur + '</td>';
+                    html += '<td>' + bmw.puissance + '</td>';
+                    html += '<td>' + prix + '</td>';
+                    html += '<td>' + bmw.carburant + '</td>';
+                    html += '<td>' + bmw.pays + '</td>';
+                    html += '</tr>';
+                });
+                tbody.innerHTML = html;
+
+                document.getElementById('compteur').innerHTML = '<strong>Nombre total de modèles : ' + data.length + '</strong>';
+
+                $('#tableBMW').DataTable({
+                    "language": {
+                        "lengthMenu": "Afficher _MENU_ modèles par page",
+                        "zeroRecords": "Aucun modèle trouvé",
+                        "info": "Page _PAGE_ sur _PAGES_",
+                        "infoEmpty": "Aucun modèle disponible",
+                        "infoFiltered": "(filtré sur _MAX_ modèles au total)",
+                        "search": "Rechercher :",
+                        "paginate": {
+                            "first": "Premier",
+                            "last": "Dernier",
+                            "next": "Suivant",
+                            "previous": "Précédent"
+                        },
+                        "buttons": {
+                            "print": "Imprimer"
+                        }
+                    },
+                    "pageLength": 10,
+                    "order": [[0, 'asc']],
+                    "dom": 'Bfrtip',
+                    "buttons": [
+                        {
+                            extend: 'print',
+                            text: 'Imprimer',
+                            title: 'Catalogue BMW - Liste des modèles',
+                            messageTop: 'Liste complète des modèles BMW'
+                        }
+                    ]
+                });
+            })
+            .catch(function(error) {
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="8" style="color: red;">Erreur : Impossible de charger les données.</td></tr>';
+            });
+    </script>
+</body>
+</html>

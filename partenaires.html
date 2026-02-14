@@ -7,22 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<?php
-require ('header.php');
-?>
+<header>
+    <div class="header-container">
+        <a href="index.html">
+            <img src="image/BMW.png" alt="BMW Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="donnees.html">Données</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="partenaires.html" class="active">Partenaires</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 <main>
     <div class="page-header">
         <h1>NOS PARTENAIRES</h1>
         <p>Découvrez l'équipe et les coulisses du projet MUZIK'S.</p>
     </div>
-    
+
     <div class="container">
         <div class="content">
             <div class="project-description">
                 <h2>Notre Projet MUZIK'S</h2>
-                
+
                 <p>
-                    Notre agence développe un projet nommé <strong>MUZIK'S</strong>, une plateforme numérique 
+                    Notre agence développe un projet nommé <strong>MUZIK'S</strong>, une plateforme numérique
                     immersive dédiée à la découverte et à la promotion de contenus musicaux authentiques.
                 </p>
 
@@ -31,7 +44,7 @@ require ('header.php');
                         Dans le cadre de ce projet, j'ai pris plaisir à concevoir un site en avec mon imagination et sur l'analyse de sites inspirants. La gestion du cahier des charges m'a également appris à concilier créativité et contraintes techniques, en respectant les contenus imposés, les formats de fichiers et l'arborescence demandée, afin de produire un travail personnel et conforme aux exigences du projet proposé.
                     </p>
                 </div>
-                Découvrez nos documents de projet ci-dessous pour en savoir plus sur notre démarche créative et notre 
+                Découvrez nos documents de projet ci-dessous pour en savoir plus sur notre démarche créative et notre
 				planification technique.
                 </div>
         </div>
@@ -55,7 +68,7 @@ require ('header.php');
 						<line x1="12" y1="18" x2="12" y2="12"></line>
 						<line x1="9" y1="15" x2="15" y2="15"></line>
 					</svg>
-					Diagramme de GANTT + Structure WPS 
+					Diagramme de GANTT + Structure WPS
 				</a>
 
 
@@ -74,7 +87,7 @@ require ('header.php');
 		<h2 class="team-section-title">Les Membres de l'Équipe</h2>
 
 		<div class="partenaires-grid">
-			
+
 			<div class="partenaire-card">
 				<img src="image/meric-koken.jpg" alt="Photo de Meriç KÖKEN">
 				<h3>Meriç KÖKEN</h3>
@@ -109,8 +122,15 @@ require ('header.php');
 		</div>
 	</div>
 </main>
-<?php
-require ('footer.php');
-?>
+
+<footer>
+    <div class="footer-content">
+        <p>© MMI Troyes</p>
+        <p>Un site créé par Meriç KÖKEN</p>
+        <p><a href="credits.html" class="footer-link">Crédits</a></p>
+        <h5>BMW</h5>
+        <p>Performance. Passion. Perfection.</p>
+    </div>
+</footer>
 </body>
 </html>

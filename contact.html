@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BMW</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html">
+            <img src="image/BMW.png" alt="BMW Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="donnees.html">Données</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="contact-container">
+    <div class="contact-header">
+        <h1>Contactez-nous</h1>
+        <p>Vous avez une question ? N'hésitez pas à nous contacter.</p>
+    </div>
+
+    <div id="message-retour"></div>
+
+    <div class="contact-form-wrapper">
+        <form id="contactForm" action="https://formspree.io/f/xplaceholder" method="post">
+            <div id="en-tete">
+                <div>
+                    <label for="prenom">PRÉNOM <span>*</span></label>
+                    <input type="text" name="prenom" id="prenom" required />
+                </div>
+                <div>
+                    <label for="nom">NOM <span>*</span></label>
+                    <input type="text" name="nom" id="nom" required />
+                </div>
+            </div>
+
+            <label for="email">E-MAIL <span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="nom@domaine.fr" required />
+
+            <fieldset class="type-demande">
+                <legend>PRÉCISER VOTRE DEMANDE <span>*</span></legend>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="type_demande" value="information" required />
+                        <span>Information</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="type_demande" value="devis" required />
+                        <span>Demande de devis</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="type_demande" value="reclamation" required />
+                        <span>Réclamation</span>
+                    </label>
+                </div>
+            </fieldset>
+
+            <label for="message">MESSAGE</label>
+            <textarea name="message" id="message" placeholder="Votre message"></textarea>
+
+            <input type="submit" value="Envoyer" />
+        </form>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p>© MMI Troyes</p>
+        <p>Un site créé par Meriç KÖKEN</p>
+        <p><a href="credits.html" class="footer-link">Crédits</a></p>
+        <h5>BMW</h5>
+        <p>Performance. Passion. Perfection.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        var prenom = document.getElementById('prenom').value;
+        var nom = document.getElementById('nom').value;
+        var email = document.getElementById('email').value;
+        var typeDemande = document.querySelector('input[name="type_demande"]:checked');
+        var message = document.getElementById('message').value;
+
+        var erreurs = [];
+        if (!prenom) erreurs.push('Le champ PRÉNOM est obligatoire');
+        if (!nom) erreurs.push('Le champ NOM est obligatoire');
+        if (!email) erreurs.push('Le champ EMAIL est obligatoire');
+        if (!typeDemande) erreurs.push('Le type de demande est obligatoire');
+
+        var retour = document.getElementById('message-retour');
+
+        if (erreurs.length > 0) {
+            retour.innerHTML = '<div class="message-retour error"><p>' + erreurs.join('<br>') + '</p></div>';
+        } else {
+            retour.innerHTML = '<div class="message-retour success"><p>Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.</p></div>';
+            this.reset();
+        }
+    });
+</script>
+
+</body>
+</html>

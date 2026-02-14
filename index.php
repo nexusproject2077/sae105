@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW - Le Plaisir de Conduire</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <?php require('header.php'); ?>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="image/hero_bmw.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+        <h1>Le Plaisir de Conduire</h1>
+        <p>L'excellence automobile réinventée</p>
+        <a href="donnees.php" class="btn-primary">Découvrir les modèles</a>
+    </div>
+</section>
+
+    <section class="models-section">
+        <div class="container">
+            <h2 class="section-title">Modèles </h2>
+            
+            <div class="models-grid">
+                <div class="model-card">
+                    <img src="image/m3.jpg" alt="BMW M3" class="model-image">
+                    <div class="model-info">
+                        <h3>M3 Competition</h3>
+                        <p>0-100 km/h en 3.9s</p>
+                        <p>510 ch | Biturbo</p>
+                    </div>
+                </div>
+
+                <div class="model-card">
+                    <img src="image/ix.jpg" alt="BMW iX" class="model-image">
+                    <div class="model-info">
+                        <h3>iX xDrive50</h3>
+                        <p>523 ch | 100% Électrique</p>
+                        <p>Autonomie 630 km</p>
+                    </div>
+                </div>
+
+                <div class="model-card">
+                    <img src="image/x5.jpg" alt="BMW X5" class="model-image">
+                    <div class="model-info">
+                        <h3>X5 M Competition</h3>
+                        <p>625 ch | V8 Biturbo</p>
+                        <p>0-100 km/h en 3.8s</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="content-section">
+            <h2>Bienvenue dans l'univers BMW</h2>
+            <p>
+                Bienvenu sur le site de BMW. <br> BMW est une marque de voitures allemande créée il y a plus de 100 ans. 
+				Elle est connue pour ses véhicules performants et agréables à conduire. 
+				Sur ce site vous découvrirez l'histoire de cette célèbre marque et les 
+				modèles qui ont marqué le monde de l'automobile.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>L'Histoire de BMW</h2>
+            <p>
+                L'aventure BMW commence en 1916 à Munich (Allemagne) avec la création de Bayerische Motoren Werke (BMW)
+                (Usines de Moteurs Bavaroises). À l'origine ils étaient spécialisée dans la fabrication de moteurs 
+                d'avion, l'entreprise se tourne vers l'automobile en 1928 avec le rachat de la marque 
+                Fahrzeugfabrik Eisenach et la production de son premier véhicule, la 'Dixi'. 
+            </p>
+            <p>
+                Le célèbre logo bleu et blanc, souvent associé à une hélice d'avion en rotation, 
+                représente en réalité les couleurs du drapeau bavarois. Ce symbole est devenu l'un 
+                des emblèmes automobiles les plus reconnus au monde, qui incarne parfaitement l'excellence et la 
+                performance à la bavaroise. <br> Source (Moi, Wikipédia)
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>Innovation et Technologies de Pointe</h2>
+            <p>
+                BMW a toujours été de l'innovation automobile contrairement à ces concurent. La marque a introduit 
+                de nombreuses technologies révolutionnaires comme le système de navigation 'iDrive', 
+                les moteurs TwinPower Turbo ultra-efficients, et plus récemment la technologie de 
+                conduite autonome avec BMW Driving Assistant Professional ce qui fait une meilleurs marque de voiture boosté qui écrase ses concurents sans les regarder.
+            </p>
+            <p>
+                Aujourd'hui, BMW s'engage pleinement dans l'électromobilité comme de nombreuse marque de voiture aujourd'hui, avec sa gamme BMW i 
+                et iX. Ces véhicules électriques reste toute fois performantes sportives et à la fois respect de 
+                l'environnement "parfait pour les écolo", tout en conservant le fameux plaisir de conduire qui caractérise 
+                la marque depuis ses débuts de la création. <br> Source (Moi, Wikipédia)
+            </p>
+        </div>
+    </div>
+
+    <?php require('footer.php'); ?>
+</body>
+</html>

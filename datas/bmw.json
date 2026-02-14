@@ -1,0 +1,552 @@
+[
+  {
+    "modele": "Série 1 118i",
+    "annee": 2023,
+    "categorie": "Compacte",
+    "moteur": "3 cylindres 1.5L Turbo",
+    "puissance": 140,
+    "prix": 32000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 1 M135i xDrive",
+    "annee": 2024,
+    "categorie": "Compacte sportive",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 306,
+    "prix": 52000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 2 Gran Coupé 220i",
+    "annee": 2023,
+    "categorie": "Coupé compact",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 178,
+    "prix": 38000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 2 Coupé M240i",
+    "annee": 2024,
+    "categorie": "Coupé sportif",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 374,
+    "prix": 58000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 3 320i",
+    "annee": 2024,
+    "categorie": "Berline",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 184,
+    "prix": 45000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 3 330e",
+    "annee": 2023,
+    "categorie": "Berline",
+    "moteur": "4 cylindres 2.0L + électrique",
+    "puissance": 292,
+    "prix": 53000,
+    "carburant": "Hybride",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 3 M340i xDrive",
+    "annee": 2024,
+    "categorie": "Berline sportive",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 374,
+    "prix": 68000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "M3 Competition",
+    "annee": 2024,
+    "categorie": "Berline sportive",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 510,
+    "prix": 95000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 4 Gran Coupé 420i",
+    "annee": 2023,
+    "categorie": "Coupé 4 portes",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 184,
+    "prix": 48000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "M4 Competition",
+    "annee": 2024,
+    "categorie": "Coupé sportif",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 510,
+    "prix": 98000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 5 520i",
+    "annee": 2024,
+    "categorie": "Berline",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 184,
+    "prix": 58000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 5 530e",
+    "annee": 2023,
+    "categorie": "Berline",
+    "moteur": "4 cylindres 2.0L + électrique",
+    "puissance": 292,
+    "prix": 68000,
+    "carburant": "Hybride",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 5 M550i xDrive",
+    "annee": 2024,
+    "categorie": "Berline sportive",
+    "moteur": "V8 4.4L Turbo",
+    "puissance": 530,
+    "prix": 88000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "M5 Competition",
+    "annee": 2023,
+    "categorie": "Berline sportive",
+    "moteur": "V8 4.4L Biturbo",
+    "puissance": 625,
+    "prix": 125000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 7 740i",
+    "annee": 2024,
+    "categorie": "Berline de luxe",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 380,
+    "prix": 105000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 7 760i xDrive",
+    "annee": 2024,
+    "categorie": "Berline de luxe",
+    "moteur": "V12 6.6L Turbo",
+    "puissance": 609,
+    "prix": 165000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "i7 xDrive60",
+    "annee": 2023,
+    "categorie": "Berline électrique",
+    "moteur": "Électrique",
+    "puissance": 544,
+    "prix": 135000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 8 840i Gran Coupé",
+    "annee": 2023,
+    "categorie": "Coupé de luxe",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 340,
+    "prix": 98000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "M8 Competition",
+    "annee": 2024,
+    "categorie": "Coupé sportif",
+    "moteur": "V8 4.4L Biturbo",
+    "puissance": 625,
+    "prix": 155000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "X1 sDrive18i",
+    "annee": 2023,
+    "categorie": "SUV Compact",
+    "moteur": "3 cylindres 1.5L Turbo",
+    "puissance": 140,
+    "prix": 38000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "X1 xDrive25e",
+    "annee": 2024,
+    "categorie": "SUV Compact",
+    "moteur": "3 cylindres 1.5L + électrique",
+    "puissance": 245,
+    "prix": 48000,
+    "carburant": "Hybride",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "X2 xDrive28i",
+    "annee": 2023,
+    "categorie": "SUV Coupé compact",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 228,
+    "prix": 45000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "X3 xDrive30i",
+    "annee": 2024,
+    "categorie": "SUV",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 248,
+    "prix": 52000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X3 M40i",
+    "annee": 2023,
+    "categorie": "SUV sportif",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 382,
+    "prix": 68000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X3 M Competition",
+    "annee": 2024,
+    "categorie": "SUV sportif",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 510,
+    "prix": 88000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X4 xDrive30i",
+    "annee": 2023,
+    "categorie": "SUV Coupé",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 248,
+    "prix": 56000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X4 M Competition",
+    "annee": 2024,
+    "categorie": "SUV Coupé sportif",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 510,
+    "prix": 92000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X5 xDrive40i",
+    "annee": 2024,
+    "categorie": "SUV",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 375,
+    "prix": 72000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X5 xDrive50e",
+    "annee": 2023,
+    "categorie": "SUV",
+    "moteur": "6 cylindres 3.0L + électrique",
+    "puissance": 483,
+    "prix": 85000,
+    "carburant": "Hybride",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X5 M Competition",
+    "annee": 2024,
+    "categorie": "SUV sportif",
+    "moteur": "V8 4.4L Biturbo",
+    "puissance": 625,
+    "prix": 125000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X6 xDrive40i",
+    "annee": 2023,
+    "categorie": "SUV Coupé",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 375,
+    "prix": 78000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X6 M Competition",
+    "annee": 2024,
+    "categorie": "SUV Coupé sportif",
+    "moteur": "V8 4.4L Biturbo",
+    "puissance": 625,
+    "prix": 132000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X7 xDrive40i",
+    "annee": 2024,
+    "categorie": "SUV Grand format",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 375,
+    "prix": 85000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "X7 M60i",
+    "annee": 2023,
+    "categorie": "SUV Grand format",
+    "moteur": "V8 4.4L Turbo",
+    "puissance": 530,
+    "prix": 115000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "iX xDrive40",
+    "annee": 2023,
+    "categorie": "SUV électrique",
+    "moteur": "Électrique",
+    "puissance": 326,
+    "prix": 82000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "iX xDrive50",
+    "annee": 2024,
+    "categorie": "SUV électrique",
+    "moteur": "Électrique",
+    "puissance": 523,
+    "prix": 98000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "iX M60",
+    "annee": 2024,
+    "categorie": "SUV électrique sportif",
+    "moteur": "Électrique",
+    "puissance": 619,
+    "prix": 118000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "i4 eDrive40",
+    "annee": 2023,
+    "categorie": "Berline électrique",
+    "moteur": "Électrique",
+    "puissance": 340,
+    "prix": 62000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "i4 M50",
+    "annee": 2024,
+    "categorie": "Berline électrique sportive",
+    "moteur": "Électrique",
+    "puissance": 544,
+    "prix": 75000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "iX1 xDrive30",
+    "annee": 2024,
+    "categorie": "SUV électrique compact",
+    "moteur": "Électrique",
+    "puissance": 313,
+    "prix": 52000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "iX3",
+    "annee": 2023,
+    "categorie": "SUV électrique",
+    "moteur": "Électrique",
+    "puissance": 286,
+    "prix": 68000,
+    "carburant": "Électrique",
+    "pays": "Chine"
+  },
+  {
+    "modele": "i3s",
+    "annee": 2022,
+    "categorie": "Compacte électrique",
+    "moteur": "Électrique",
+    "puissance": 184,
+    "prix": 42000,
+    "carburant": "Électrique",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Z4 sDrive20i",
+    "annee": 2023,
+    "categorie": "Roadster",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 197,
+    "prix": 52000,
+    "carburant": "Essence",
+    "pays": "Autriche"
+  },
+  {
+    "modele": "Z4 M40i",
+    "annee": 2024,
+    "categorie": "Roadster sportif",
+    "moteur": "6 cylindres 3.0L Turbo",
+    "puissance": 382,
+    "prix": 68000,
+    "carburant": "Essence",
+    "pays": "Autriche"
+  },
+  {
+    "modele": "M2",
+    "annee": 2024,
+    "categorie": "Coupé sportif compact",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 460,
+    "prix": 72000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 2 Active Tourer 218i",
+    "annee": 2023,
+    "categorie": "Monospace compact",
+    "moteur": "3 cylindres 1.5L Turbo",
+    "puissance": 136,
+    "prix": 35000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 2 Active Tourer 225xe",
+    "annee": 2024,
+    "categorie": "Monospace compact",
+    "moteur": "3 cylindres 1.5L + électrique",
+    "puissance": 245,
+    "prix": 44000,
+    "carburant": "Hybride",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 3 Touring 320d",
+    "annee": 2023,
+    "categorie": "Break",
+    "moteur": "4 cylindres 2.0L",
+    "puissance": 190,
+    "prix": 48000,
+    "carburant": "Diesel",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 5 Touring 530d",
+    "annee": 2024,
+    "categorie": "Break",
+    "moteur": "6 cylindres 3.0L",
+    "puissance": 286,
+    "prix": 65000,
+    "carburant": "Diesel",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "M4 CSL",
+    "annee": 2023,
+    "categorie": "Coupé sportif",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 550,
+    "prix": 145000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "XM",
+    "annee": 2024,
+    "categorie": "SUV hybride sportif",
+    "moteur": "V8 4.4L + électrique",
+    "puissance": 653,
+    "prix": 165000,
+    "carburant": "Hybride",
+    "pays": "États-Unis"
+  },
+  {
+    "modele": "Série 4 Cabriolet 430i",
+    "annee": 2023,
+    "categorie": "Cabriolet",
+    "moteur": "4 cylindres 2.0L Turbo",
+    "puissance": 255,
+    "prix": 58000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Série 8 Cabriolet M850i",
+    "annee": 2024,
+    "categorie": "Cabriolet de luxe",
+    "moteur": "V8 4.4L Turbo",
+    "puissance": 530,
+    "prix": 125000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Alpina B3",
+    "annee": 2023,
+    "categorie": "Berline sportive",
+    "moteur": "6 cylindres 3.0L Biturbo",
+    "puissance": 462,
+    "prix": 88000,
+    "carburant": "Essence",
+    "pays": "Allemagne"
+  },
+  {
+    "modele": "Alpina XB7",
+    "annee": 2024,
+    "categorie": "SUV de luxe",
+    "moteur": "V8 4.4L Biturbo",
+    "puissance": 621,
+    "prix": 145000,
+    "carburant": "Essence",
+    "pays": "États-Unis"
+  }
+]

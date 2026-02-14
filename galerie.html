@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - BMW</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html">
+            <img src="image/BMW.png" alt="BMW Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="donnees.html">Données</a></li>
+                <li><a href="galerie.html" class="active">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="gallery-header">
+        <h1>Galerie BMW</h1>
+        <p>Découvrez notre collection exceptionnelle de véhicules BMW</p>
+    </div>
+
+    <!-- Filtres de catégories -->
+    <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="serie-m">Série M</button>
+        <button class="filter-btn" data-filter="electrique">Électrique</button>
+        <button class="filter-btn" data-filter="suv">SUV</button>
+        <button class="filter-btn" data-filter="classique">Classiques</button>
+    </div>
+
+    <!-- Grille de galerie -->
+    <div class="gallery-grid">
+        <!-- Série M -->
+        <div class="gallery-item" data-category="serie-m">
+            <img src="image/m3.jpg" alt="M3 Competition">
+            <div class="gallery-overlay">
+                <h3>M3 Competition</h3>
+                <p>Le summum de la performance sportive</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="serie-m">
+            <img src="image/m4.jpg" alt="M4 Coupé">
+            <div class="gallery-overlay">
+                <h3>M4 Coupé</h3>
+                <p>Élégance et puissance réunies</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="serie-m">
+            <img src="image/m5.jpg" alt="M5 CS">
+            <div class="gallery-overlay">
+                <h3>M5 CS</h3>
+                <p>La berline sportive ultime</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="serie-m">
+            <img src="image/m8.jpg" alt="M8 Gran Coupé">
+            <div class="gallery-overlay">
+                <h3>M8 Gran Coupé</h3>
+                <p>Performance et luxe absolu</p>
+            </div>
+        </div>
+
+        <!-- Électrique -->
+        <div class="gallery-item" data-category="electrique">
+            <img src="image/ix.jpg" alt="iX xDrive50">
+            <div class="gallery-overlay">
+                <h3>iX xDrive50</h3>
+                <p>L'avenir de la mobilité électrique</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="electrique">
+            <img src="image/i4.jpg" alt="i4 M50">
+            <div class="gallery-overlay">
+                <h3>i4 M50</h3>
+                <p>Performance électrique sportive</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="electrique">
+            <img src="image/i7.jpg" alt="i7 xDrive60">
+            <div class="gallery-overlay">
+                <h3>i7 xDrive60</h3>
+                <p>Luxe électrique redéfini</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="electrique">
+            <img src="image/i5.jpg" alt="i5 eDrive40">
+            <div class="gallery-overlay">
+                <h3>i5 eDrive40</h3>
+                <p>Berline électrique innovante</p>
+            </div>
+        </div>
+
+        <!-- SUV -->
+        <div class="gallery-item" data-category="suv">
+            <img src="image/x5.jpg" alt="X5 M Competition">
+            <div class="gallery-overlay">
+                <h3>X5 M Competition</h3>
+                <p>Le SUV sportif par excellence</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="suv">
+            <img src="image/x7.jpg" alt="X7 M60i">
+            <div class="gallery-overlay">
+                <h3>X7 M60i</h3>
+                <p>Luxe et espace supérieur</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="suv">
+            <img src="image/x3.jpg" alt="X3 M40i">
+            <div class="gallery-overlay">
+                <h3>X3 M40i</h3>
+                <p>Polyvalence sportive</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="suv">
+            <img src="image/x6.jpg" alt="X6 M50i">
+            <div class="gallery-overlay">
+                <h3>X6 M50i</h3>
+                <p>Le SAC sportif iconique</p>
+            </div>
+        </div>
+
+        <!-- Classiques -->
+        <div class="gallery-item" data-category="classique">
+            <img src="image/classic-m1.jpg" alt="M1 (1978)">
+            <div class="gallery-overlay">
+                <h3>M1 (1978)</h3>
+                <p>La légende des supercars</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="classique">
+            <img src="image/classic-e30.jpg" alt="E30 M3 (1986)">
+            <div class="gallery-overlay">
+                <h3>E30 M3 (1986)</h3>
+                <p>L'icône des années 80</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="classique">
+            <img src="image/classic-507.jpg" alt="507 Roadster (1956)">
+            <div class="gallery-overlay">
+                <h3>507 Roadster (1956)</h3>
+                <p>Élégance intemporelle</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="classique">
+            <img src="image/classic-2002.jpg" alt="2002 Turbo (1973)">
+            <div class="gallery-overlay">
+                <h3>2002 Turbo (1973)</h3>
+                <p>Le précurseur des sportives</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/gallery.js"></script>
+
+<footer>
+    <div class="footer-content">
+        <p>© MMI Troyes</p>
+        <p>Un site créé par Meriç KÖKEN</p>
+        <p><a href="credits.html" class="footer-link">Crédits</a></p>
+        <h5>BMW</h5>
+        <p>Performance. Passion. Perfection.</p>
+    </div>
+</footer>
+
+</body>
+</html>

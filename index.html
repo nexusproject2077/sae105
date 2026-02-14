@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <?php require('header.php'); ?>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="image/BMW.png" alt="BMW Logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="donnees.html">Données</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="partenaires.html">Partenaires</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <section class="hero">
         <video autoplay muted loop playsinline class="hero-video">
@@ -16,14 +31,14 @@
     <div class="hero-content">
         <h1>Le Plaisir de Conduire</h1>
         <p>L'excellence automobile réinventée</p>
-        <a href="donnees.php" class="btn-primary">Découvrir les modèles</a>
+        <a href="donnees.html" class="btn-primary">Découvrir les modèles</a>
     </div>
 </section>
 
     <section class="models-section">
         <div class="container">
             <h2 class="section-title">Modèles </h2>
-            
+
             <div class="models-grid">
                 <div class="model-card">
                     <img src="image/m3.jpg" alt="BMW M3" class="model-image">
@@ -59,9 +74,9 @@
         <div class="content-section">
             <h2>Bienvenue dans l'univers BMW</h2>
             <p>
-                Bienvenu sur le site de BMW. <br> BMW est une marque de voitures allemande créée il y a plus de 100 ans. 
-				Elle est connue pour ses véhicules performants et agréables à conduire. 
-				Sur ce site vous découvrirez l'histoire de cette célèbre marque et les 
+                Bienvenu sur le site de BMW. <br> BMW est une marque de voitures allemande créée il y a plus de 100 ans.
+				Elle est connue pour ses véhicules performants et agréables à conduire.
+				Sur ce site vous découvrirez l'histoire de cette célèbre marque et les
 				modèles qui ont marqué le monde de l'automobile.
             </p>
         </div>
@@ -70,14 +85,14 @@
             <h2>L'Histoire de BMW</h2>
             <p>
                 L'aventure BMW commence en 1916 à Munich (Allemagne) avec la création de Bayerische Motoren Werke (BMW)
-                (Usines de Moteurs Bavaroises). À l'origine ils étaient spécialisée dans la fabrication de moteurs 
-                d'avion, l'entreprise se tourne vers l'automobile en 1928 avec le rachat de la marque 
-                Fahrzeugfabrik Eisenach et la production de son premier véhicule, la 'Dixi'. 
+                (Usines de Moteurs Bavaroises). À l'origine ils étaient spécialisée dans la fabrication de moteurs
+                d'avion, l'entreprise se tourne vers l'automobile en 1928 avec le rachat de la marque
+                Fahrzeugfabrik Eisenach et la production de son premier véhicule, la 'Dixi'.
             </p>
             <p>
-                Le célèbre logo bleu et blanc, souvent associé à une hélice d'avion en rotation, 
-                représente en réalité les couleurs du drapeau bavarois. Ce symbole est devenu l'un 
-                des emblèmes automobiles les plus reconnus au monde, qui incarne parfaitement l'excellence et la 
+                Le célèbre logo bleu et blanc, souvent associé à une hélice d'avion en rotation,
+                représente en réalité les couleurs du drapeau bavarois. Ce symbole est devenu l'un
+                des emblèmes automobiles les plus reconnus au monde, qui incarne parfaitement l'excellence et la
                 performance à la bavaroise. <br> Source (Moi, Wikipédia)
             </p>
         </div>
@@ -85,20 +100,28 @@
         <div class="content-section">
             <h2>Innovation et Technologies de Pointe</h2>
             <p>
-                BMW a toujours été de l'innovation automobile contrairement à ces concurent. La marque a introduit 
-                de nombreuses technologies révolutionnaires comme le système de navigation 'iDrive', 
-                les moteurs TwinPower Turbo ultra-efficients, et plus récemment la technologie de 
+                BMW a toujours été de l'innovation automobile contrairement à ces concurent. La marque a introduit
+                de nombreuses technologies révolutionnaires comme le système de navigation 'iDrive',
+                les moteurs TwinPower Turbo ultra-efficients, et plus récemment la technologie de
                 conduite autonome avec BMW Driving Assistant Professional ce qui fait une meilleurs marque de voiture boosté qui écrase ses concurents sans les regarder.
             </p>
             <p>
-                Aujourd'hui, BMW s'engage pleinement dans l'électromobilité comme de nombreuse marque de voiture aujourd'hui, avec sa gamme BMW i 
-                et iX. Ces véhicules électriques reste toute fois performantes sportives et à la fois respect de 
-                l'environnement "parfait pour les écolo", tout en conservant le fameux plaisir de conduire qui caractérise 
+                Aujourd'hui, BMW s'engage pleinement dans l'électromobilité comme de nombreuse marque de voiture aujourd'hui, avec sa gamme BMW i
+                et iX. Ces véhicules électriques reste toute fois performantes sportives et à la fois respect de
+                l'environnement "parfait pour les écolo", tout en conservant le fameux plaisir de conduire qui caractérise
                 la marque depuis ses débuts de la création. <br> Source (Moi, Wikipédia)
             </p>
         </div>
     </div>
 
-    <?php require('footer.php'); ?>
+    <footer>
+        <div class="footer-content">
+            <p>© MMI Troyes</p>
+            <p>Un site créé par Meriç KÖKEN</p>
+            <p><a href="credits.html" class="footer-link">Crédits</a></p>
+            <h5>BMW</h5>
+            <p>Performance. Passion. Perfection.</p>
+        </div>
+    </footer>
 </body>
 </html>
